@@ -1,0 +1,52 @@
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: anim 10s ease-in-out infinite;
+}
+
+@keyframes anim{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: green;
+    }
+    12.5%{
+        top: 0;
+        left: 50px;
+        background-color: rgb(250, 166, 10);
+    }
+    25%{
+        top: 0;
+        left: 100px;
+        background-color: rgb(224, 102, 45);
+    }
+    37.5%{
+        top: 0;
+        left: 150px;
+        background-color: rgb(99, 27, 167);
+    }
+    50%{
+        top: 50px;
+        left: 150px;
+        background-color: rgb(233, 35, 144);
+    }
+    62.5%{
+        top: 50px;
+        left: 100px;
+        background-color: rgb(158, 218, 18);
+    }
+    75%{
+        top: 50px;
+        left: 50px;
+        background-color: rgb(35, 9, 150);
+    }
+    87.5%{
+        top: 50px;
+        left: 0px;
+        background-color: rgb(192, 16, 16);
+    }
+}
